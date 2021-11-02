@@ -1,6 +1,6 @@
 # PAThogen CHaracterisation (PATCH) pipeline
 
-PATCH pipeline implementation [Nextflow][url_nextflow] pipeline for processing host transcriptomic and genomic sequencing data.
+PATCH pipeline implementation [Nextflow][url_nextflow] pipeline for processing host transcriptomic and genomic sequencing data to identify pathogen-derived reads to a functional level in cancer datasets.
 
 The pipeline was written by the [Cancer Bioinformatics][url_cb] and [Translational Systems Biology][url_sb] group at [King's College London][url_kcl], UK.
 
@@ -20,6 +20,7 @@ The pipeline was written by the [Cancer Bioinformatics][url_cb] and [Translation
 5. As before - classified reads from the pathogen of interest are extracted and functionally annotated using [`BLASTn`](https://www.ncbi.nlm.nih.gov/books/NBK279690/) against indexed RefSeq for transcripts/genomes of the pathogen of interest. 
 6. Discordant read coordinates extracted ([`Bedtools`](https://bedtools.readthedocs.io/en/latest/))  
 
+
 ## Credits
 
 The pipeline was written by the [Cancer Bioinformatics][url_cb] and [Translational Systems Biology][url_sb] group at [King's College London][url_kcl], UK.
@@ -36,3 +37,4 @@ Study concept and design [Radhika Kataria](radhika.kataria@kcl.ac.uk), [Anita Gr
 [url_nextflow_tuto]: http://www.nextflow.io/docs/latest/getstarted.html#get-started
 
 [pipeline]: https://github.com/radhika-kataria/PATCH-pipeline/blob/main/PATCH-github-image.png
+
